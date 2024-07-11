@@ -9,6 +9,9 @@ cortex-m = "0.7"
 cortex-m-rt = "0.7"
 embedded-hal = { version = "1.0.0" }
 embedded-aht20 = "0.1.1"
+embedded-cli = "0.2.1"
+embedded-io = "0.6.1"
+ufmt = "0.2.0"
 
 
 defmt = "0.3"
@@ -17,6 +20,7 @@ panic-probe = { version = "0.3", features = ["print-defmt"] }
 
 # We're using a Pico by default on this template
 rp-pico = "0.9"
+arrayvec = "0.7.4"
 
 # but you can use any BSP. Uncomment this to use the pro_micro_rp2040 BSP instead
 # sparkfun-pro-micro-rp2040 = "0.8"
